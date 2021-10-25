@@ -1,0 +1,24 @@
+/*
+color:设置字体颜色
+font-size：文字大小
+font-family:文字的字体
+font-style:设置字体是否倾斜
+font-weight:设置文字是否加粗
+line-height:设置文字的行高
+ */
+h1{
+    font-weight: bold;
+}
+div{
+    font-size: 20px;
+    color:green;
+    /*font-family: "Arial Black";
+    font-style:normal;
+    line-height: 40px; 设置行高 */
+    font: normal 20px/40px  "Arial Black";  /*格式：font:是否加粗 字号/行高 字体 相当于那几句话合成一句*/
+
+}
+em{
+    font-style: normal;    /*字体是否倾斜*/
+    text-decoration: underline; /*设置下划线*/
+}

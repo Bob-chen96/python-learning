@@ -1,0 +1,35 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-H4QNILA",
+    "children" : [ {
+      "name" : "test_name",
+      "uid" : "20e141ec86e4d39f",
+      "parentUid" : "419c4d1c80d74c708a98572c05887dac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631935501501,
+        "stop" : 1631935501502,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_fun",
+      "uid" : "9e585a78844f6610",
+      "parentUid" : "419c4d1c80d74c708a98572c05887dac",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631935501501,
+        "stop" : 1631935501502,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "419c4d1c80d74c708a98572c05887dac"
+  } ]
+}

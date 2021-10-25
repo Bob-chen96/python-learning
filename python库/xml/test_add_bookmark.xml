@@ -1,0 +1,152 @@
+<RecordData feature="&#35270;&#22270;" story="&#20070;&#31614;" testcase="op_sq_1" severity="normal" classname="AddBookmark">
+  <TestCase title="&#28155;&#21152;&#20070;&#31614;" description="&#28155;&#21152;&#20070;&#31614;" resolution="1936x1056" left_top="-8,-8" funcname="add_bookmark" Url="http://172.16.13.211:8099/test_data/op_sq/sq1.ofd">
+    <lclick x="17" y="249" stamp="1608018344248" times="1" pic_path="./auto_click_picture/shot_-8_229_1608018344376.png"/>
+    <Assert file="./assert_picture/1608018651035.png" msg="&#25171;&#24320;&#20070;&#31614;"/>
+    <lclick x="189" y="162" stamp="1608018759048" times="1" pic_path="./auto_click_picture/shot_159_142_1608018759143.png"/>
+    <text type="p" times="1"/>
+    <text type="a" times="1"/>
+    <text type="g" times="1"/>
+    <text type="e" times="1"/>
+    <text type="1" times="1"/>
+    <text type="1" times="1"/>
+    <lclick x="187" y="361" stamp="1608018789025" times="1" pic_path="./auto_click_picture/shot_157_341_1608018789135.png"/>
+    <lclick x="89" y="314" stamp="1608018795907" times="1" pic_path="./auto_click_picture/shot_59_294_1608018796034.png"/>
+    <Assert file="./assert_picture/1608018873039.png" msg="&#40664;&#35748;&#20070;&#31614;&#23450;&#20301;&#22312;&#39318;&#39029;"/>
+    <lclick x="1147" y="78" stamp="1608018929215" times="1" pic_path="./auto_click_picture/shot_1117_58_1608018929374.png"/>
+    <lclick x="455" y="78" stamp="1608018934794" times="1" pic_path="./auto_click_picture/shot_425_58_1608018934953.png"/>
+    <lmove start_pos="706,323" id="0">
+      <pt x="706" y="323"/>
+      <pt x="707" y="323"/>
+      <pt x="709" y="323"/>
+      <pt x="711" y="323"/>
+      <pt x="713" y="323"/>
+      <pt x="715" y="322"/>
+      <pt x="716" y="322"/>
+      <pt x="718" y="322"/>
+      <pt x="719" y="322"/>
+      <pt x="722" y="322"/>
+      <pt x="724" y="321"/>
+      <pt x="727" y="321"/>
+      <pt x="727" y="321"/>
+      <pt x="728" y="321"/>
+      <pt x="730" y="321"/>
+      <pt x="731" y="321"/>
+      <pt x="734" y="321"/>
+      <pt x="735" y="321"/>
+      <pt x="737" y="319"/>
+      <pt x="738" y="319"/>
+      <pt x="739" y="319"/>
+      <pt x="740" y="319"/>
+      <pt x="740" y="319"/>
+      <pt x="741" y="319"/>
+      <pt x="743" y="319"/>
+      <pt x="745" y="319"/>
+      <pt x="746" y="319"/>
+      <pt x="747" y="319"/>
+      <pt x="748" y="319"/>
+      <pt x="749" y="319"/>
+      <pt x="749" y="319"/>
+      <pt x="750" y="319"/>
+      <pt x="752" y="319"/>
+      <pt x="753" y="319"/>
+      <pt x="755" y="319"/>
+      <pt x="757" y="319"/>
+      <pt x="758" y="319"/>
+      <pt x="759" y="319"/>
+      <pt x="761" y="319"/>
+      <pt x="762" y="319"/>
+      <pt x="764" y="319"/>
+      <pt x="765" y="320"/>
+      <pt x="767" y="320"/>
+      <pt x="768" y="320"/>
+      <pt x="770" y="320"/>
+      <pt x="772" y="321"/>
+      <pt x="772" y="321"/>
+      <pt x="773" y="321"/>
+      <pt x="774" y="322"/>
+      <pt x="775" y="322"/>
+      <pt x="776" y="322"/>
+      <pt x="777" y="322"/>
+      <pt x="779" y="322"/>
+      <pt x="780" y="322"/>
+      <pt x="783" y="322"/>
+      <pt x="785" y="323"/>
+      <pt x="786" y="323"/>
+      <pt x="787" y="323"/>
+      <pt x="788" y="323"/>
+      <pt x="789" y="324"/>
+      <pt x="789" y="324"/>
+    </lmove>
+    <rclick x="779" y="322" stamp="1608018942070"/>
+    <lclick x="839" y="415" stamp="1608018948612" times="1" pic_path="./auto_click_picture/shot_809_395_1608018948724.png"/>
+    <lclick x="839" y="415" stamp="1608018954089" times="1" pic_path="./auto_click_picture/shot_809_395_1608018954215.png"/>
+    <Assert file="./assert_picture/1608019065015.png" msg="&#20070;&#31614;&#21517;&#20026;&#32553;&#30053;&#20869;&#23481;"/>
+    <lclick x="650" y="338" stamp="1608019070438" times="1" pic_path="./auto_click_picture/shot_620_318_1608019070531.png"/>
+    <lclick x="108" y="336" stamp="1608019074905" times="1" pic_path="./auto_click_picture/shot_78_316_1608019074984.png"/>
+    <Assert file="./assert_picture/1608019130394.png" msg="&#23450;&#20301;&#20026;&#31532;&#20108;&#39029;"/>
+    <lmove start_pos="1196,78" id="1">
+      <pt x="1196" y="78"/>
+    </lmove>
+    <lmove start_pos="714,323" id="2">
+      <pt x="714" y="323"/>
+      <pt x="717" y="323"/>
+      <pt x="720" y="323"/>
+      <pt x="724" y="323"/>
+      <pt x="728" y="323"/>
+      <pt x="729" y="323"/>
+      <pt x="732" y="323"/>
+      <pt x="735" y="323"/>
+      <pt x="739" y="322"/>
+      <pt x="743" y="321"/>
+      <pt x="745" y="321"/>
+      <pt x="748" y="321"/>
+      <pt x="751" y="321"/>
+      <pt x="753" y="321"/>
+      <pt x="754" y="321"/>
+      <pt x="755" y="321"/>
+      <pt x="757" y="321"/>
+      <pt x="758" y="321"/>
+      <pt x="760" y="321"/>
+      <pt x="761" y="321"/>
+      <pt x="763" y="321"/>
+      <pt x="764" y="321"/>
+      <pt x="766" y="321"/>
+      <pt x="768" y="321"/>
+      <pt x="770" y="321"/>
+      <pt x="772" y="321"/>
+      <pt x="773" y="321"/>
+      <pt x="775" y="321"/>
+      <pt x="775" y="321"/>
+      <pt x="776" y="321"/>
+      <pt x="778" y="321"/>
+      <pt x="778" y="321"/>
+      <pt x="779" y="321"/>
+      <pt x="780" y="321"/>
+      <pt x="781" y="321"/>
+      <pt x="781" y="321"/>
+      <pt x="782" y="321"/>
+      <pt x="783" y="321"/>
+      <pt x="785" y="321"/>
+      <pt x="787" y="321"/>
+      <pt x="788" y="321"/>
+      <pt x="790" y="321"/>
+      <pt x="790" y="322"/>
+      <pt x="791" y="322"/>
+      <pt x="791" y="322"/>
+      <pt x="791" y="322"/>
+      <pt x="790" y="322"/>
+      <pt x="789" y="322"/>
+      <pt x="787" y="324"/>
+      <pt x="787" y="324"/>
+      <pt x="786" y="324"/>
+      <pt x="784" y="324"/>
+    </lmove>
+    <lclick x="191" y="164" stamp="1608019159599" times="1" pic_path="./auto_click_picture/shot_161_144_1608019159758.png"/>
+    <lclick x="623" y="433" stamp="1608019162151" times="1" pic_path="./auto_click_picture/shot_593_413_1608019162263.png"/>
+    <Assert file="./assert_picture/1608019207782.png" msg="&#23614;&#39029;&#40664;&#35748;&#26159;&#26080;&#26631;&#39064;-2"/>
+    <lclick x="94" y="313" stamp="1608019215657" times="1" pic_path="./auto_click_picture/shot_64_293_1608019215783.png"/>
+    <lclick x="91" y="339" stamp="1608019218225" times="1" pic_path="./auto_click_picture/shot_61_319_1608019218350.png"/>
+    <lclick x="94" y="360" stamp="1608019220366" times="1" pic_path="./auto_click_picture/shot_64_340_1608019220494.png"/>
+    <Assert file="./assert_picture/1608019270237.png" msg="&#23450;&#20301;&#22312;&#26411;&#39029;"/>
+  </TestCase>
+</RecordData>

@@ -1,0 +1,37 @@
+1.创建仓库:进入到所选文件夹 git init 初始化
+目录下会出现一个名为 .git 的目录，所有 Git 需要的数据和资源都存放在这个目录中
+使用ls -al 可以查看隐藏文件夹
+
+这里要首先通过git config命令创建项目级别签名：
+git config user.name Bob chen
+git config user.email Bobchen@qq.com
+再通过git config --global 命令创建系统级别签名：
+git config --global user.name Bobchen全局系统用户名
+git config --global user.email Bobchen全局系统邮箱@qq.com
+
+2.指定文件纳入版本控制：
+vim test1.txt 添加一个txt文件进行编辑，编辑完 esc + :wq退出编辑
+git add test1.txt 是把工作区的修改放入暂存区
+git commit -m '版本1'  将test1.txt提交到仓库中
+
+3.查看版本记录: git log
+
+4.版本回退：
+git reset 版本号 回到指定版本
+回到上一个版本：git reset --hard HEAD^
+其中HEAD表示当前最新版本，HEAD^表示当前版本上一个版本，也可以用HEAD~1表示当前版本上一个版本
+查看版本操作：git reflog
+
+5.查看当前工作树的状态：git status
+
+工作区：电脑中的目录，如这里的git_test
+版本库：这里的隐藏目录.git,其中最重要的就是stage（index）的暂存区，还有
+git自动创建的第一个分支master，以及指向master的指针Head
+
+6.撤销修改：git checkout -- test1.txt 丢弃工作区的改动（没有把修改放到暂存区）
+如果以及添加到暂存区，可以git reset HEAD test1.txt 再执行后面一句git checkout -- test1.txt
+
+7.对比文件不同，即比较文件在暂存区和工作区的差异:git diff test1.txt
+
+8.删除文件：rm test2.txt（没有把修改放到暂存区） 这种可以用git checkout -- test2.txt撤销删除
+git rm test2.txt  + git commit 真实删除

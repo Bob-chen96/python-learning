@@ -1,0 +1,58 @@
+{
+  "uid" : "9e585a78844f6610",
+  "name" : "test_fun",
+  "historyId" : "pytest:test_01创建用例.TestClass#test_fun",
+  "time" : {
+    "start" : 1631935501501,
+    "stop" : 1631935501502,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "assert 3 == 5",
+  "statusTrace" : "self = <Python开发学习.pytest.test_01创建用例.TestClass object at 0x0000023783D82520>\n\n    def test_fun(self):\n>       assert 3 == 5\nE       assert 3 == 5\n\ntest_01创建用例.py:6: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-H4QNILA"
+  }, {
+    "name" : "testClass",
+    "value" : "test_01创建用例.TestClass"
+  }, {
+    "name" : "package",
+    "value" : "test_01创建用例.TestClass"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9e585a78844f6610.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.181" timestamp="2021-09-18T11:25:01.501786" hostname="DESKTOP-H4QNILA"><testcase classname="test_01创建用例.TestClass" name="test_fun" time="0.001"><failure message="assert 3 == 5">self = &lt;Python开发学习.pytest.test_01创建用例.TestClass object at 0x0000023783D82520&gt;
+
+    def test_fun(self):
+&gt;       assert 3 == 5
+E       assert 3 == 5
+
+test_01创建用例.py:6: AssertionError</failure></testcase><testcase classname="test_01创建用例.TestClass" name="test_name" time="0.001" /></testsuite></testsuites>

@@ -1,0 +1,41 @@
+{
+  "pytest:test_01创建用例.TestClass#test_fun" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e585a78844f6610",
+      "status" : "failed",
+      "statusDetails" : "assert 3 == 5",
+      "time" : {
+        "start" : 1631935501501,
+        "stop" : 1631935501502,
+        "duration" : 1
+      }
+    } ]
+  },
+  "pytest:test_01创建用例.TestClass#test_name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20e141ec86e4d39f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631935501501,
+        "stop" : 1631935501502,
+        "duration" : 1
+      }
+    } ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_01创建用例.TestClass",
+    "children" : [ {
+      "name" : "test_name",
+      "uid" : "20e141ec86e4d39f",
+      "parentUid" : "aea41f3362850b586c319dd040ca5218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631935501501,
+        "stop" : 1631935501502,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_fun",
+      "uid" : "9e585a78844f6610",
+      "parentUid" : "aea41f3362850b586c319dd040ca5218",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631935501501,
+        "stop" : 1631935501502,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test_01创建用例.TestClass"
+  } ]
+}

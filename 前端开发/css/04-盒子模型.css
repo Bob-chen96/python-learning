@@ -1,0 +1,22 @@
+/*Margin(外边距) - 清除边框外的区域，外边距是透明的。
+Border(边框) - 围绕在内边距和内容外的边框。
+Padding(内边距) - 清除内容周围的区域，内边距是透明的。
+Content(内容) - 盒子的内容，显示文本和图像
+ */
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+
+   /* border-top: 10px solid black;
+    !*表示边框宽度 线的类型solid是实线 dashed是点线 线的颜色*!
+    border-left: 10px dashed black;
+    border-right: 10px dotted black;
+    border-bottom: 10px solid black;*/
+    border: 10px solid black; /*表示上下左右都是这样*/
+
+    padding: 20px 40px 80px 100px; /*表示内边距，从顶部顺时针开始*/
+
+    margin: 100px 0 0 100px; /*表示和网页边框距离，和padding一样设置*/
+}

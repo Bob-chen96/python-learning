@@ -1,0 +1,2 @@
+保存：UI界面完成后可保存为name.ui文件（ctrl+r可预览）
+生成代码：命令行 pyuic5 -o name.py name.ui

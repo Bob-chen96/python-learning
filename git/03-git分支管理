@@ -1,0 +1,16 @@
+1.查看当前分支：git branch 默认是在master分支
+
+2.git checkout -b 分支名  创建分支并切换到这个分支
+
+3.git branch 分支名  创建分支
+
+4.切换分支：git checkout 分支名
+
+5.合并分支 git merge 分支名
+
+6.删除分支：git branch -d 分支名
+
+解决冲突：在两个分支上同时提交并作用在一个文件上，可以手动解决后再次提交
+
+7.git blame <file> 查看指定文件的修改记录
+

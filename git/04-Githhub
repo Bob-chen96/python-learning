@@ -1,0 +1,26 @@
+先在github上创建仓库
+
+1.添加ssh账户：
+如果某台机器需要与github上的仓库交互，那么就要把这台机器的ssh公钥添加到这个github账户上
+在setting里面点击添加ssh公钥
+
+2.用vi .gitconfig 进入修改为注册github时的邮箱，填写用户名
+
+3.使用命令生成ssh密匙：ssh-keygen -t rsa -C "邮箱地址"
+后面的 your_email@youremail.com 改为你在 Github 上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。
+成功的话会在 ~/ 下生成 .ssh 文件夹，进去，打开 id_rsa.pub，复制里面的 key
+
+4.克隆项目：
+进入仓库，在code下复制ssh地址
+然后进入到你的文件夹 git clone 复制地址  把项目克隆到当前文件夹
+
+5.推送代码：就是把分支上的所有本地提交推送到远程库，推送时要指定本地分支，这样，git就会
+把该分支推送到远程库对应的远程分支上
+命令：git push origin 分支名称  你就会在github上看到push的分支
+
+6.本地分支跟踪远程分支
+命令： git branch --set-upstream-to=origin/远程分支名称 本地分支名称
+
+7.从远处分支上拉取代码
+命令：git pull origin 分支名称
+

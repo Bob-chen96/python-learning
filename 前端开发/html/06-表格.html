@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签</title>
+</head>
+<body>
+    <!--
+    1.table标签声明一个表格：
+    border属性 定义表格的边框,设置值是数值
+    cellpadding属性 定义单元格内容与边框的距离，设置值为数值
+    cellspacing属性 定义单元格与单元格之间的间距，设置值为数值
+    align属性 设置整体表格相对于浏览器窗口的水平对齐方式，设置值有left/right/center
+
+    2.tr标签：定义表格中的一行
+
+    3.td和th标签：定义一行中的一个单元格，td表示普通单元格，th表示表头单元格
+    align属性：设置单元格中内容的水平对齐方式 left/center/right
+    valign属性：设置单元格中内容的垂直对齐方式 top/middle/bottom
+    colspan属性：设置单元格水平合并，设置值是数值
+    rowspan属性：设置单元格垂直和平，设置值是数值
+    -->
+    <h1>表格</h1>
+
+    <table border="1" width="300" height="200" align="center">
+        <tr>
+            <th>表头</th>
+        </tr>
+        <tr>
+            <td align="center">1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td valign="top" align="center">1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <!--快捷键 table>(tr>td*5)*6-->
+    <table border="1" width="600" height="300" align="center">
+        <tr>
+            <th colspan="5">基本情况</th>    <!--表示水平合并5个表格-->
+        </tr>
+        <tr>
+            <td width="30%"></td>
+            <td width="20%"></td>
+            <td width="20%"></td>
+            <td width="20%"></td>
+            <td rowspan="5" width="10%"><img src="images/005.jpg" alt="人物图片"></td>  <!-- 垂直和并5个单元格-->
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+    </table>
+
+</body>
+</html>

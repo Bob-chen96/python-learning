@@ -1,0 +1,9 @@
+/* CSS页面引入方法：
+1.外联式：通过link标签 <link rel="stylesheet" type="text/css" href="../css/01-css引入方式.css">
+2.嵌入式：通过style标签嵌入样式表:   首页可以使用这种方式，网页打开较快
+    <style type = "text/css">
+    p{...}
+    </style>
+3.内联式：通过style属性，在标签中直接写入
+<div style = "width:......"></div>
+ */

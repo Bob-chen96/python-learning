@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <link rel="stylesheet" type="text/css" href="../css/01-css引入方式.css">
+</head>
+<body>
+    <h1>注册表单</h1>
+
+    <!--1.form标签定义整体的表单区域：
+    action属性：定义表单数据提交地址
+    method属性：定义表单提交方式，一般由get和post方式
+
+    2.label标签为表单元素文字标注
+
+    3.input标签定义通用的表单元素：
+    type属性：text定义单行文本输入框
+              password定义密码输入框
+              radio定义单选框
+              checkbox定义复选框
+              file定义上传文件
+              submit定义提交按钮
+              reset定义重置按钮
+              image定义图片作为提交按钮，用src属性定义图片地址
+              hidden定义一个隐藏的表单域，用来存储值
+    value属性 定义表单元素的值
+    name属性 定义表单元素的名称，此名称是提交数据时的键名
+
+    4.textarea标签定义多行文本输入框
+
+    5.select标签定义下拉表单元素-->
+    <form action="" method="post">
+        <div>
+            <label for="user">用户名</label>   <!--需要和id一样，点击label可以调至输入框-->
+            <input type="text" name="username" id="user">   <!--name相当于数据库的字段名-->
+        </div>
+        <br><br>
+
+        <div>
+            <label>密码</label>
+            <input type="password" name="password">
+        </div>
+        <br>
+        <div>
+            <label>性别:</label>
+            <input type="radio" name="gender" value="0"> 男
+            <input type="radio" name="gender" value="1"> 女
+        </div>
+        <br>
+        <div>
+            <label>爱好</label>
+            <input type="checkbox" name="like" value="study">java
+            <input type="checkbox" name="like" value="py">python
+            <input type="checkbox" name="like" value="women">美女
+            <input type="checkbox" name="like" value="game">游戏
+        </div>
+        <br>
+
+        <div>
+            <label>上传照片</label>
+            <input type="file" name="photo" value="ph">
+        </div>
+        <br>
+        <div>
+            <label>个人介绍</label>
+            <textarea name="introduce"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>籍贯</label>
+            <select name="site">
+                <option>北京</option>
+                <option>湖北</option>
+                <option>湖南</option>
+                <option>河南</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </div>
+
+    </form>
+</body>
+</html>
